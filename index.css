@@ -1,0 +1,44 @@
+body{
+    background-image: radial-gradient(whitesmoke , lightgreen );
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1  , h2{
+    padding-bottom: 30px;
+    font-size: 80px;
+    color: rebeccapurple;
+}
+
+button {
+   margin-right: 20px;
+   padding: 2px 20px 2px 20px;
+   font-weight: bold;
+   background-color: transparent;
+}
+
+.decrease:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.reset:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.increase:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+
+
+@media  screen and (min-width: 480px) {
+    
+}
