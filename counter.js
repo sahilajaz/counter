@@ -9,7 +9,12 @@ let count = 0
 dec.addEventListener("click" , function() {
       count = count - 1
       countEL.textContent = count
-      countEL.style.color = "red"
+      if(count > 0) {
+        countEL.style.color = "green"
+      }
+      else if(count<0){
+        countEL.style.color = "red"
+      }
 })
 
 reSet.addEventListener("click" , function() {
@@ -21,5 +26,10 @@ reSet.addEventListener("click" , function() {
 increaseBtn.addEventListener("click" , function() {
     count = count + 1
     countEL.textContent = count
-    countEL.style.color = "green"
+   if(count > 0) {
+        countEL.style.color = "green"
+      }
+      else if(count<0){
+        countEL.style.color = "red"
+      }
 })
